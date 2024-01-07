@@ -1,6 +1,8 @@
+@use '../util/' as *;
+
 header {
     width: 100%;
-    height: 8vw;
+    height: 5.5vw;
     background-color: var(--red-bg);
     display: flex;
     justify-content: space-between;
@@ -10,13 +12,13 @@ header {
 }
 
 #logo {
-    width: max(70px, 10vw);
+    width: max(rem(70), 10vw);
     background-color: var(--red-bg);
     padding: 0.2rem;
 }
 
 #cover {
-    width: max(400px, 15vw);
+    width: max(rem(400), 15vw);
     margin-left: 40vw;
     background-color: var(--red-bg);
     padding: 0.2rem;
