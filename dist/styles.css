@@ -13,6 +13,29 @@ body {
   background-color: var(--bg-color);
 }
 
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--red-bg);
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1 {
+  color: #ced1d6;
+  font-size: min(10vw, 3em);
+  text-align: center;
+}
+
+h2 {
+  font-family: Tahoma;
+  font-size: 30px;
+  text-align: center;
+}
+
 header {
   width: 100%;
   height: 5.5vw;
@@ -92,5 +115,150 @@ a:active {
   --first-place: #86c43a;
   --second-pace: #dfca43;
   --third-place: #bd3838;
+}
+
+.team-card {
+  width: 100%;
+  max-width: 380px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border-top: solid 2px #000;
+  border-right: solid 2px #000;
+  border-top-right-radius: 10px;
+  margin: 20px;
+  padding: inherit;
+  background-color: var(--off-white);
+}
+
+.standings-table {
+  position: center;
+  margin-top: 10vh;
+}
+
+table {
+  margin-left: 25vw;
+  border-collapse: revert;
+  border: 0;
+  width: 50%;
+  position: relative;
+  margin-top: 3rem;
+  background-color: var(--off-white);
+  color: var(--red-bg);
+}
+
+table > thread {
+  color: var(--off-white);
+  margin: auto;
+}
+
+table caption {
+  color: var(--red-bg);
+  font-size: 1.3em;
+  font-weight: normal;
+  position: inherit;
+  top: -2.25rem;
+  left: 0.5rem;
+}
+
+.team-listing {
+  width: 90%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #000;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1800px;
+  padding: 20px 20px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.team-card {
+  width: 100%;
+  max-width: 380px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border-top: solid 2px #000;
+  border-right: solid 2px #000;
+  border-top-right-radius: 10px;
+  margin: 20px;
+  padding: inherit;
+  background-color: var(--off-white);
+}
+
+.listing-item-wrapper {
+  border: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.listing-standing {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #949498;
+  margin-bottom: 10px;
+}
+
+.listing-standing .rank {
+  font-size: 2.625rem;
+  line-height: 3rem;
+}
+
+.listing-standing .points {
+  text-align: right;
+}
+
+.points-amount {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.points-label {
+  display: inline-block;
+  padding: 2px 5px 1px;
+  border-radius: 5px;
+  color: #fff;
+  background: #000;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+.listing-image {
+  height: 150px;
+}
+
+.listing-driver {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-right: solid 1px #949498;
+  border-bottom: solid 1px #949498;
+  border-bottom-right-radius: 10px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 15px;
+  padding-bottom: 5px;
+  font-family: Geneva, Verdana, sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */

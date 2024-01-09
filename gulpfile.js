@@ -8,9 +8,6 @@ const babel = require('gulp-babel');
 const terser = require('gulp-terser');
 const browsersync = require('browser-sync').create();
 
-//use dart-sass for @use
-//sass.compiler = require('dart-sass');
-
 // Sass Task
 function scssTask(){
     return src('app/scss/styles.scss', {sourcemaps: true})

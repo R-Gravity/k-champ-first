@@ -1,2 +1,2 @@
-"use strict";console.log("Hello");
+"use strict";function getValues(e,t,a){try{gapi.client.sheets.spreadsheets.values.get({spreadsheetId:e,range:t}).then((function(e){var t=e.result,s=t.values?t.values.length:0;console.log("".concat(s," rows retrieved.")),a&&a(e)}))}catch(e){return void(document.getElementById("content").innerText=e.message)}}console.log("Hello"),console.log("aaaaa");var temp=getValues("14VudoRo4EnCsGff3zt1Wj07EviLKQpvV0VUnBtN6h2E","B4");console.log("aaaaa");
 //# sourceMappingURL=script.js.map

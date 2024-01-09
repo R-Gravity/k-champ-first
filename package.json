@@ -24,10 +24,12 @@
     "browser-sync": "^3.0.2",
     "cssnano": "^6.0.3",
     "dart-sass": "^1.25.0",
+    "googleapis": "^130.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
     "gulp-terser": "^2.1.0",
+    "http-server": "^14.1.1",
     "postcss": "^8.4.33",
     "sass": "^1.69.7"
   },
